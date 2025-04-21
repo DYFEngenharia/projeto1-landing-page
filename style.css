@@ -1,0 +1,234 @@
+*{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu{
+    color: white; /* Cor do texto branco */
+    padding: 0px 20px; /* Espaçamento interno superior/inferior e esquerda/direita */
+  }
+  
+  .menu ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    display: flex; /* Alinha os itens do menu horizontalmente */
+    justify-content: end; /* Centraliza os itens do menu */
+  }
+  
+  .menu li {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+  }
+  
+  .menu a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Mantém a cor do texto branco */
+  }
+  
+  /* Linha abaixo do menu */
+  .menu::after {
+    content: ""; /* Necessário para pseudo-elementos */
+    display: block; /* Faz a linha ocupar a largura total */
+    height: 2px; /* Espessura da linha */
+    background-color: #007bff; /* Cor da linha (azul mais claro) */
+    margin-top: 0px; /* Espaçamento entre o menu e a linha */
+  }
+
+.imagem-menu{
+    height: 300px;
+    width: 200px;
+    grid-column-end: auto;
+    background-image: url(imagens/imagem-menu1.jpg);
+    position: relative;
+    color: #FFFFFF;
+}
+#menu-superior{
+    background-color: #1f1d1d;
+}
+#logo{
+    width: 50px;
+    margin-top: 0px;
+    margin-left: 150px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    background-color: #1f1d1d;
+
+}
+
+#logoname{
+    width: 100px;
+    margin-top: 0x;
+    margin-left: 15px;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+#titulo-menusuperior{
+    font-size: 65px;
+    padding-bottom: 0px;
+    margin-left: 150px;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+
+#texto-menusuperior{
+    font-size: 15px;
+    height: auto;
+    padding-top: 0px;
+    margin-left: 155px;
+    margin-top: 10px;
+    padding-bottom: 150px;
+    color: #FFFFFF;
+}
+#compatibilizacao{
+    margin-left: 0px;
+    
+}
+#desenvolvimento{
+    margin-left: 20px;
+}
+
+#menu-informacional{
+    margin-top: 300px;
+    margin: auto;
+    display: grid;
+    grid-auto-flow: column;
+    columns: 3;
+}
+#servicos{
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    color: rgba(7, 17, 34, 1);
+    
+}
+#menu-informacional{
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    color: rgba(7, 17, 34, 1);
+    padding-bottom: 50px;
+}
+#gestao{
+    color: rgba(7, 17, 34, 1);
+}
+
+.icone{
+    height: 50px;
+    margin-left: 150px;
+    margin-right:20px;
+    color: rgba(7, 17, 34, 1)
+}
+.texto-icones{
+    margin-top: 15px;
+    margin-right: 150px;
+}
+.texto-titulo{
+    display: flex;
+    align-items: center;
+}
+
+.texto-icones{
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+#video{
+    background-color: rgba(7, 17, 34, 1);
+    padding: 50px;
+}
+
+#secaovideo{
+    margin: 0px 50px 100px 150px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: 2;
+}
+#titulo-video{
+    margin-bottom: 0%;
+    color: aliceblue;
+    padding: 50px;
+}
+#texto-video{
+    color: aliceblue;
+    margin-left: 50px;
+    text-align: justify;
+}
+#carrossel{
+    background-color: rgba(7, 17, 34, 1);
+    padding: 50px;
+    padding-bottom: 75px;
+}
+#titulo-carrossel{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 40px 0px;
+}
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+.card{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.card:hover{
+    transform: translateY(-5px);
+    transition-duration: 0.6s;
+}
+#setaesquerda{
+    display: none;
+    margin-top: 90%;
+}
+#solaris{
+    display: none;
+}
+
+.seta{
+    margin-top: 50%;
+    margin-left: 20%;
+    cursor: pointer;
+}
+.seta:hover{
+    transform:translateY(-4px) ;
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    background-color: white;
+    text-align: center;
+    margin: 25px;
+}
+#titulo-formulario{
+    font-size: 25px;
+    color: rgba(7, 17, 34, 1);
+    margin: 30px;
+    text-align: center;
+}
+input{
+    width: 413px;
+    height: 53px;
+    background-color: #bdbdbd;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button{
+    margin-top: 5px;
+    background-color: rgba(7, 17, 34, 1);
+    color: white;
+    height: 40px;
+    width: 250px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(10, 23, 44);
+    transform: translateY(-4px);
+    transition-duration: 0.8s;
+    box-shadow: 0px 5px 10px rgba(7, 17, 34, 0.666) ;
+}

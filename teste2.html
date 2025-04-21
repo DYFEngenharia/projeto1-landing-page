@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DYF Engenharia - Projetos </title>
+</head>
+<body>
+    <!-- MENU SUPERIOR -->
+    <div id="menu-superior">
+        <a href="https://www.instagram.com/dyfengenharia/"> <img src="./imagens/logo.png" id="logo" alt="ERROR"> </a>
+        <img  src="./imagens/logoname.png" id="logoname" alt="ERROR">
+        <nav class="menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Serviços</a></li>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </nav>
+        <h1 id="titulo-menusuperior"> Desenhe seu Futuro!</h1>
+        <p id="texto-menusuperior">Na DYF Engenharia, combinamos tecnologia de ponta com expertise técnica <br>
+            para transformar suas ideias em realidade. Realizamos a gestão, o desenvolvimento <br>
+            e a compatibilização de projetos integrados de engenharia e arquitetura.</p>
+        <script src="index.js"></script>
+    </div>
+
+    <!-- MENU INFORMACIONAL -->
+     <div id="servicos">
+        <H1>Nossos Serviços</H1>
+     </div>
+    <div id="menu-informacional">
+        <img src="icones/icone1.svg" class="icone" id="gestao" alt="ERROR" >
+            <div>
+                <h1 class="titulo-icones">Gestão de Projetos </h1> 
+                <p class="texto-icones"> Gerenciamento completo de projetos de 
+                                        engenharia e arquitetura, garantindo 
+                                        eficiência, qualidade e cumprimento de prazos. 
+                 </p>
+            </div>
+        <img src="icones/icone2.svg" class="icone" id="desenvolvimento" alt="ERROR">
+            <div>
+                <h1 class="titulo-icones">Desenvolvimento</h1>
+                <p class="texto-icones">Criação de projetos inovadores,
+                                    seguindo as normas técnicas e utilizando as 
+                                    mais avançadas ferramentas de modelagem. 
+                 </p> 
+            </div>
+        <img src="icones/icone3.svg" class="icone" id="compatibilizacao" alt="ERROR">
+            <div>
+                <h1 class="titulo-icones">Compatibilização</h1>
+                <p class="texto-icones"> Integração harmoniosa de projetos complementares, eliminando conflitos
+                     e garantindo a perfeita execução.
+                </p>
+            </div>
+    </div>
+
+    <!-- SEÇÃO VIDEO -->
+     <div id="video">
+     <div id="secaovideo">
+    
+        <div>
+            <h1 id="titulo-video">Inovação e Engenharia</h1>
+            <p id="texto-video">A DYF Engenharia nasceu da visão de unir tecnologia e engenharia para criar soluções inovadoras.
+            Nossa equipe multidisciplinar combina anos de experiência com abordagens disruptivas. 
+            Utilizamos ferramentas de BIM (Building Information Modeling), inteligência artificial 
+             e análise de dados para otimizar cada etapa do processo projetual, garantindo resultados excepcionais.</p>
+        </div>
+     </div>
+    </div>
+    
+    <!-- DEPOIMENTOS -->
+     <div id="carrossel">
+        <div>
+            <h1 id="titulo-carrossel"> Quem trabalha com a DYF, recomenda!</h1>
+        </div>
+        <!-- DIVISÃO DOS CARDS -->
+        <div id="div-cards">
+            <img class="seta" id="setaesquerda" onclick="RolarParaEsquerda()" src="icones/setaesquerda.svg" alt="ERROR">
+            <img id="horizonte" src="cards/horizonte.svg" class="card" alt="ERROR">
+            <img id="sigma" src="cards/sigma.svg" class="card" alt="ERROR">
+            <img id="solaris" src="cards/solaris.svg" class="card" alt="ERROR">
+            <img class="seta" id="setadireita" onclick="Rolarparadireita()" src="icones/setadireita.svg" alt="ERROR">
+        </div>
+     </div>
+     <!-- FORMULÁRIO -->
+      <div id="formulario">
+            <h1 id="titulo-formulario"> Dê agora mesmo o próximo passo a caminho do seu futuro! </h1>
+            <form action="https://api.sheetmonkey.io/form/n7cLXWciNJfGezoA7ZBDs7" method="post">
+                <input type="text" placeholder="Nome" name="Name" required> <br>
+                <input type="email" placeholder="Email" name="Email" required> <br>
+                <input type="number" placeholder="Telefone" name="Phone"> <br>
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                <button type="submit"> Seja um parceiro! </button>
+            </form>
+            <div>
+
+            </div>
+      </div>
+     <script src="index.js"></script>
+</body>
+</html>
